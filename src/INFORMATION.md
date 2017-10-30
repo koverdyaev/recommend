@@ -63,12 +63,15 @@ API на базе DRF. Предполагается использование �
 
 Сейчас для того, чтобы запустить проект нужно
 установить в систему Postgres и Redis
-склонировать проект git clone ... project
-cd project
+склонировать проект 
+```bash
+git clone ... <project>
+cd <project>
 virtualenv -p python3 venv
 source venv/bin/activate
 pip install -r src/requrements/local.txt
 ./manage.py runserver
+```
 
 
 Что еще нужно сделать:
