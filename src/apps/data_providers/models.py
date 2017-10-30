@@ -27,7 +27,6 @@ class LastFMAccount(models.Model):
         return response.json()
 
     def save_tracks(self, tracks):
-        # TODO recreate migrations
         # TODO refactor to check tracks and artists of another providers
         # TODO add tags, albums and genres extraction
         db_tracks = []
